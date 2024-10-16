@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:5px;
+}
+.nav-link:hover{
+    margin:0;
+    padding:5px;
+    font-weight: bold;
+    color: grey;
+}
+.img{
+    background-image: url('./capboy.jpg');
+    width:100%;
+    height: 600px;
+    position: relative;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-attachment: fixed;
+}
+.img h1{
+    background-color: black;
+    color:white;
+}
+h2{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:grey;
+    font:50;
+}
+h3,p{
+    margin-left:100px;
+    margin-right:100px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font: 50;
+    color:grey;
+    padding:20px;
+}
+.girl img:hover{
+    opacity:0.7;
+}
+.girl{
+    margin:100px;
+    display: flex;
+    text-align:center;
+}
+header{
+    text-align:center;
+    color:grey;
+    font-size: large;
+    margin:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo{
+    margin:50px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:grey;
+
+}
+div{
+    box-sizing:border-box;
+}
+.container{
+    width:100%;
+    color:grey;
+    margin-left:100px;
+    margin-right:100px;
+}
+.skills {
+    text-align: center;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: white; 
+  }
+  .html {
+    width: 90%; 
+    background-color: grey;
+} 
+  .css {
+    width: 80%;
+     background-color:grey;
+    } 
+  .js {
+    width: 75%; 
+    background-color: grey;
+}
+.section{
+    background-color:grey;
+    margin-top:10px;
+    width:100%;
+    padding:10px;
+
+}
+.section ol{
+    margin-left:100px;
+    display:flex;
+    gap:290px;
+    padding:20px;
+}
+.section ol li{
+    list-style: none;
+    color:white;
+
+
+}
+
+
